@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="albutils",  # Nombre del paquete
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     install_requires=[],  # Dependencias (puedes agregar más si las necesitas)
     author="Diego García",
