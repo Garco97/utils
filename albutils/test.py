@@ -5,7 +5,9 @@ class Test():
         self._has_passed = False
 
     def __str__(self):
-        return f"{self.name} - {self.has_passed} - {self.value}\n"
+        if self.value:
+            return f"{self.name} - {self.has_passed} - {self.value}\n"
+        return f"{self.name} - {self.has_passed}\n"
 
     @property
     def name(self):
